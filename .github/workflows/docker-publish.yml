@@ -15,9 +15,9 @@ jobs:
       username : ${{ secrets.DOCKERHUB_USERNAME }}
       password : ${{secrets.DOCKERHUB_TOKEN}}
    - name: Bulid Docker image
-     run : | docker bulid -t <9014578536>/<hello devops> : latest .
+     run : | docker bulid -t <9014578536>/<hello-devops> : latest .
    - name : Push Docker image
-     run : | docker push <9014578536>/<hello devops> : latest
+     run : | docker push <9014578536>/<hello-devops> : latest
     
      
     
